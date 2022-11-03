@@ -419,6 +419,7 @@ main(int argc, char** argv)
   str_usage << "           --language_code=<bcp 47 language code (such as en-US)>" << std::endl;
   str_usage << "           --boosted_words_file=<string>" << std::endl;
   str_usage << "           --boosted_words_score=<float>" << std::endl;
+  str_usage << "           --speaker_diarization=<true|false>" << std::endl;
   str_usage << "           --ssl_cert=<filename>" << std::endl;
   gflags::SetUsageMessage(str_usage.str());
   gflags::SetVersionString(::riva::utils::kBuildScmRevision);
